@@ -1,0 +1,182 @@
+[2025-12-01 10:04:31] INFO - __main__ - LangSmith tracing enabled
+[2025-12-01 10:04:31] INFO - __main__ - Starting RAG application...
+[2025-12-01 10:04:31] INFO - project.utils.model_loader - GROQ API key loaded
+[2025-12-01 10:04:31] INFO - project.utils.model_loader - ModelLoader initialized
+[2025-12-01 10:04:32] INFO - project.utils.model_loader - Loaded Groq LLM: openai/gpt-oss-120b
+[2025-12-01 10:04:32] INFO - project.utils.model_loader - GROQ API key loaded
+[2025-12-01 10:04:32] INFO - project.utils.model_loader - ModelLoader initialized
+[2025-12-01 10:04:32] INFO - project.utils.model_loader - Loaded Groq LLM: openai/gpt-oss-120b
+[2025-12-01 10:04:32] INFO - project.source.data_preparation - DataPreparation initialized with chunk_size=1000
+[2025-12-01 10:04:32] INFO - project.utils.model_loader - GROQ API key loaded
+[2025-12-01 10:04:32] INFO - project.utils.model_loader - ModelLoader initialized
+[2025-12-01 10:04:34] INFO - project.utils.model_loader - Loaded FastEmbed: BAAI/bge-small-en-v1.5
+[2025-12-01 10:04:35] INFO - project.utils.model_loader - Loaded Groq LLM: openai/gpt-oss-120b
+[2025-12-01 10:04:35] INFO - project.model.retriever - DocumentRetriever initialized
+[2025-12-01 10:05:11] INFO - __main__ - LangSmith tracing enabled
+[2025-12-01 10:05:11] INFO - __main__ - Starting RAG application...
+[2025-12-01 10:05:11] INFO - project.utils.model_loader - GROQ API key loaded
+[2025-12-01 10:05:11] INFO - project.utils.model_loader - ModelLoader initialized
+[2025-12-01 10:05:11] INFO - project.utils.model_loader - Loaded Groq LLM: openai/gpt-oss-120b
+[2025-12-01 10:05:11] INFO - project.utils.model_loader - GROQ API key loaded
+[2025-12-01 10:05:11] INFO - project.utils.model_loader - ModelLoader initialized
+[2025-12-01 10:05:12] INFO - project.utils.model_loader - Loaded Groq LLM: openai/gpt-oss-120b
+[2025-12-01 10:05:12] INFO - project.source.data_preparation - DataPreparation initialized with chunk_size=1000
+[2025-12-01 10:05:12] INFO - project.utils.model_loader - GROQ API key loaded
+[2025-12-01 10:05:12] INFO - project.utils.model_loader - ModelLoader initialized
+[2025-12-01 10:05:14] INFO - project.utils.model_loader - Loaded FastEmbed: BAAI/bge-small-en-v1.5
+[2025-12-01 10:05:14] INFO - project.utils.model_loader - Loaded Groq LLM: openai/gpt-oss-120b
+[2025-12-01 10:05:14] INFO - project.model.retriever - DocumentRetriever initialized
+[2025-12-01 10:05:14] INFO - flashrank.Ranker - Downloading rank-T5-flan...
+[2025-12-01 10:05:26] INFO - project.model.reranking - FlashRank reranker initialized with model: rank-T5-flan
+[2025-12-01 10:05:26] INFO - project.pipeline.rag - RAGPipeline initialized
+[2025-12-01 10:06:14] INFO - __main__ - LangSmith tracing enabled
+[2025-12-01 10:06:14] INFO - __main__ - Starting RAG application...
+[2025-12-01 10:06:14] INFO - project.utils.model_loader - GROQ API key loaded
+[2025-12-01 10:06:14] INFO - project.utils.model_loader - ModelLoader initialized
+[2025-12-01 10:06:15] INFO - project.utils.model_loader - Loaded Groq LLM: openai/gpt-oss-120b
+[2025-12-01 10:06:15] INFO - project.utils.model_loader - GROQ API key loaded
+[2025-12-01 10:06:15] INFO - project.utils.model_loader - ModelLoader initialized
+[2025-12-01 10:06:15] INFO - project.utils.model_loader - Loaded Groq LLM: openai/gpt-oss-120b
+[2025-12-01 10:06:15] INFO - project.source.data_preparation - DataPreparation initialized with chunk_size=1000
+[2025-12-01 10:06:15] INFO - project.utils.model_loader - GROQ API key loaded
+[2025-12-01 10:06:15] INFO - project.utils.model_loader - ModelLoader initialized
+[2025-12-01 10:06:17] INFO - project.utils.model_loader - Loaded FastEmbed: BAAI/bge-small-en-v1.5
+[2025-12-01 10:06:18] INFO - project.utils.model_loader - Loaded Groq LLM: openai/gpt-oss-120b
+[2025-12-01 10:06:18] INFO - project.model.retriever - DocumentRetriever initialized
+[2025-12-01 10:06:18] INFO - project.model.reranking - FlashRank reranker initialized with model: rank-T5-flan
+[2025-12-01 10:06:18] INFO - project.pipeline.rag - RAGPipeline initialized
+[2025-12-01 10:06:18] INFO - project.pipeline.agents - Web search tool initialized
+[2025-12-01 10:06:18] INFO - project.pipeline.agents - AgentWorkflow initialized
+[2025-12-01 10:06:18] INFO - __main__ - Setting up pipeline with Attention Is All You Need paper...
+[2025-12-01 10:06:18] INFO - project.source.data_preparation - Loading PDF from local file: data\attention-is-all-you-need.pdf
+[2025-12-01 10:06:18] ERROR - project.source.data_preparation - Failed to load PDF: `pypdf` package not found, please install it with `pip install pypdf`
+[2025-12-01 10:06:18] ERROR - project.source.data_preparation - Document preparation failed: `pypdf` package not found, please install it with `pip install pypdf`
+[2025-12-01 10:06:34] INFO - __main__ - LangSmith tracing enabled
+[2025-12-01 10:06:34] INFO - __main__ - Starting RAG application...
+[2025-12-01 10:06:34] INFO - project.utils.model_loader - GROQ API key loaded
+[2025-12-01 10:06:34] INFO - project.utils.model_loader - ModelLoader initialized
+[2025-12-01 10:06:35] INFO - project.utils.model_loader - Loaded Groq LLM: openai/gpt-oss-120b
+[2025-12-01 10:06:35] INFO - project.utils.model_loader - GROQ API key loaded
+[2025-12-01 10:06:35] INFO - project.utils.model_loader - ModelLoader initialized
+[2025-12-01 10:06:35] INFO - project.utils.model_loader - Loaded Groq LLM: openai/gpt-oss-120b
+[2025-12-01 10:06:35] INFO - project.source.data_preparation - DataPreparation initialized with chunk_size=1000
+[2025-12-01 10:06:35] INFO - project.utils.model_loader - GROQ API key loaded
+[2025-12-01 10:06:35] INFO - project.utils.model_loader - ModelLoader initialized
+[2025-12-01 10:06:37] INFO - project.utils.model_loader - Loaded FastEmbed: BAAI/bge-small-en-v1.5
+[2025-12-01 10:06:38] INFO - project.utils.model_loader - Loaded Groq LLM: openai/gpt-oss-120b
+[2025-12-01 10:06:38] INFO - project.model.retriever - DocumentRetriever initialized
+[2025-12-01 10:06:38] INFO - project.model.reranking - FlashRank reranker initialized with model: rank-T5-flan
+[2025-12-01 10:06:38] INFO - project.pipeline.rag - RAGPipeline initialized
+[2025-12-01 10:06:38] INFO - project.pipeline.agents - Web search tool initialized
+[2025-12-01 10:06:38] INFO - project.pipeline.agents - AgentWorkflow initialized
+[2025-12-01 10:06:38] INFO - __main__ - Setting up pipeline with Attention Is All You Need paper...
+[2025-12-01 10:06:38] INFO - project.source.data_preparation - Loading PDF from local file: data\attention-is-all-you-need.pdf
+[2025-12-01 10:06:39] INFO - project.source.data_preparation - Loaded 11 pages from PDF
+[2025-12-01 10:06:39] INFO - project.source.data_preparation - Split documents into 43 chunks
+[2025-12-01 10:06:39] INFO - project.source.data_preparation - Document preparation complete: 43 chunks ready
+[2025-12-01 10:06:44] INFO - faiss.loader - Loading faiss with AVX512 support.
+[2025-12-01 10:06:44] INFO - faiss.loader - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+[2025-12-01 10:06:44] INFO - faiss.loader - Loading faiss with AVX2 support.
+[2025-12-01 10:06:45] INFO - faiss.loader - Successfully loaded faiss with AVX2 support.
+[2025-12-01 10:06:45] INFO - project.model.retriever - Vector store created with 43 documents
+[2025-12-01 10:06:45] INFO - project.model.retriever - Base retriever configured with mmr search
+[2025-12-01 10:06:45] INFO - project.pipeline.rag - RAG chain built successfully
+[2025-12-01 10:06:45] INFO - project.pipeline.rag - RAG pipeline setup complete
+[2025-12-01 10:06:45] INFO - project.pipeline.agents - LangGraph workflow compiled
+[2025-12-01 10:06:45] INFO - project.pipeline.agents - Agent workflow setup complete
+[2025-12-01 10:06:46] INFO - project.pipeline.agents - Workflow graph saved to workflow.png
+[2025-12-01 10:06:46] INFO - __main__ - Workflow graph saved
+[2025-12-01 10:06:46] INFO - project.pipeline.agents - ---RETRIEVE---
+[2025-12-01 10:06:46] INFO - project.pipeline.agents - Node 'retrieve' completed
+[2025-12-01 10:06:46] INFO - project.pipeline.agents - ---CHECK DOCUMENT RELEVANCE TO QUESTION---
+[2025-12-01 10:06:46] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-12-01 10:06:46] INFO - project.pipeline.agents - ---GRADE: DOCUMENT RELEVANT---
+[2025-12-01 10:06:47] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-12-01 10:06:47] INFO - project.pipeline.agents - ---GRADE: DOCUMENT RELEVANT---
+[2025-12-01 10:06:47] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-01 10:07:58] INFO - __main__ - LangSmith tracing enabled
+[2025-12-01 10:07:58] INFO - __main__ - Starting RAG application...
+[2025-12-01 10:07:58] INFO - project.utils.model_loader - GROQ API key loaded
+[2025-12-01 10:07:58] INFO - project.utils.model_loader - ModelLoader initialized
+[2025-12-01 10:07:58] INFO - project.utils.model_loader - Loaded Groq LLM: openai/gpt-oss-120b
+[2025-12-01 10:07:58] INFO - project.utils.model_loader - GROQ API key loaded
+[2025-12-01 10:07:58] INFO - project.utils.model_loader - ModelLoader initialized
+[2025-12-01 10:07:59] INFO - project.utils.model_loader - Loaded Groq LLM: openai/gpt-oss-120b
+[2025-12-01 10:07:59] INFO - project.source.data_preparation - DataPreparation initialized with chunk_size=1000
+[2025-12-01 10:07:59] INFO - project.utils.model_loader - GROQ API key loaded
+[2025-12-01 10:07:59] INFO - project.utils.model_loader - ModelLoader initialized
+[2025-12-01 10:08:02] INFO - project.utils.model_loader - Loaded FastEmbed: BAAI/bge-small-en-v1.5
+[2025-12-01 10:08:02] INFO - project.utils.model_loader - Loaded Groq LLM: openai/gpt-oss-120b
+[2025-12-01 10:08:02] INFO - project.model.retriever - DocumentRetriever initialized
+[2025-12-01 10:08:03] INFO - project.model.reranking - FlashRank reranker initialized with model: rank-T5-flan
+[2025-12-01 10:08:03] INFO - project.pipeline.rag - RAGPipeline initialized
+[2025-12-01 10:08:03] INFO - project.pipeline.agents - Web search tool initialized
+[2025-12-01 10:08:03] INFO - project.pipeline.agents - AgentWorkflow initialized
+[2025-12-01 10:08:03] INFO - __main__ - Setting up pipeline with Attention Is All You Need paper...
+[2025-12-01 10:08:03] INFO - project.source.data_preparation - Loading PDF from local file: data\attention-is-all-you-need.pdf
+[2025-12-01 10:08:03] INFO - project.source.data_preparation - Loaded 11 pages from PDF
+[2025-12-01 10:08:03] INFO - project.source.data_preparation - Split documents into 43 chunks
+[2025-12-01 10:08:03] INFO - project.source.data_preparation - Document preparation complete: 43 chunks ready
+[2025-12-01 10:08:10] INFO - faiss.loader - Loading faiss with AVX512 support.
+[2025-12-01 10:08:10] INFO - faiss.loader - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+[2025-12-01 10:08:10] INFO - faiss.loader - Loading faiss with AVX2 support.
+[2025-12-01 10:08:10] INFO - faiss.loader - Successfully loaded faiss with AVX2 support.
+[2025-12-01 10:08:10] INFO - project.model.retriever - Vector store created with 43 documents
+[2025-12-01 10:08:10] INFO - project.model.retriever - Base retriever configured with mmr search
+[2025-12-01 10:08:10] INFO - project.pipeline.rag - RAG chain built successfully
+[2025-12-01 10:08:10] INFO - project.pipeline.rag - RAG pipeline setup complete
+[2025-12-01 10:08:10] INFO - project.pipeline.agents - LangGraph workflow compiled
+[2025-12-01 10:08:10] INFO - project.pipeline.agents - Agent workflow setup complete
+[2025-12-01 10:08:11] INFO - project.pipeline.agents - Workflow graph saved to workflow.png
+[2025-12-01 10:08:11] INFO - __main__ - Workflow graph saved
+[2025-12-01 10:08:11] INFO - project.pipeline.agents - ---RETRIEVE---
+[2025-12-01 10:08:11] INFO - project.pipeline.agents - Node 'retrieve' completed
+[2025-12-01 10:08:11] INFO - project.pipeline.agents - ---CHECK DOCUMENT RELEVANCE TO QUESTION---
+[2025-12-01 10:08:12] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-12-01 10:08:12] INFO - project.pipeline.agents - ---GRADE: DOCUMENT RELEVANT---
+[2025-12-01 10:08:12] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-12-01 10:08:12] INFO - project.pipeline.agents - ---GRADE: DOCUMENT RELEVANT---
+[2025-12-01 10:08:12] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-12-01 10:08:12] INFO - project.pipeline.agents - ---GRADE: DOCUMENT RELEVANT---
+[2025-12-01 10:08:12] INFO - project.pipeline.agents - ---ASSESS GRADED DOCUMENTS---
+[2025-12-01 10:08:12] INFO - project.pipeline.agents - ---DECISION: RELEVANT DOCUMENTS FOUND, GENERATE---
+[2025-12-01 10:08:12] INFO - project.pipeline.agents - Node 'grade_documents' completed
+[2025-12-01 10:08:12] INFO - project.pipeline.agents - ---GENERATE---
+[2025-12-01 10:08:13] INFO - project.model.reranking - Reranked 3 documents, returning top 3
+[2025-12-01 10:08:15] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-12-01 10:08:15] INFO - project.pipeline.agents - Node 'generate' completed
+[2025-12-01 10:08:15] INFO - project.pipeline.agents - ---RETRIEVE---
+[2025-12-01 10:08:15] INFO - project.pipeline.agents - Node 'retrieve' completed
+[2025-12-01 10:08:15] INFO - project.pipeline.agents - ---CHECK DOCUMENT RELEVANCE TO QUESTION---
+[2025-12-01 10:08:15] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-12-01 10:08:15] INFO - project.pipeline.agents - ---GRADE: DOCUMENT RELEVANT---
+[2025-12-01 10:08:15] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-12-01 10:08:15] INFO - project.pipeline.agents - ---GRADE: DOCUMENT RELEVANT---
+[2025-12-01 10:08:15] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-12-01 10:08:15] INFO - project.pipeline.agents - ---GRADE: DOCUMENT RELEVANT---
+[2025-12-01 10:08:15] INFO - project.pipeline.agents - ---ASSESS GRADED DOCUMENTS---
+[2025-12-01 10:08:15] INFO - project.pipeline.agents - ---DECISION: RELEVANT DOCUMENTS FOUND, GENERATE---
+[2025-12-01 10:08:15] INFO - project.pipeline.agents - Node 'grade_documents' completed
+[2025-12-01 10:08:15] INFO - project.pipeline.agents - ---GENERATE---
+[2025-12-01 10:08:16] INFO - project.model.reranking - Reranked 3 documents, returning top 3
+[2025-12-01 10:08:18] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-12-01 10:08:18] INFO - project.pipeline.agents - Node 'generate' completed
+[2025-12-01 10:08:18] INFO - project.pipeline.agents - ---RETRIEVE---
+[2025-12-01 10:08:18] INFO - project.pipeline.agents - Node 'retrieve' completed
+[2025-12-01 10:08:18] INFO - project.pipeline.agents - ---CHECK DOCUMENT RELEVANCE TO QUESTION---
+[2025-12-01 10:08:19] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-12-01 10:08:19] INFO - project.pipeline.agents - ---GRADE: DOCUMENT RELEVANT---
+[2025-12-01 10:08:19] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-12-01 10:08:19] INFO - project.pipeline.agents - ---GRADE: DOCUMENT RELEVANT---
+[2025-12-01 10:08:20] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-12-01 10:08:20] INFO - project.pipeline.agents - ---GRADE: DOCUMENT RELEVANT---
+[2025-12-01 10:08:20] INFO - project.pipeline.agents - ---ASSESS GRADED DOCUMENTS---
+[2025-12-01 10:08:20] INFO - project.pipeline.agents - ---DECISION: RELEVANT DOCUMENTS FOUND, GENERATE---
+[2025-12-01 10:08:20] INFO - project.pipeline.agents - Node 'grade_documents' completed
+[2025-12-01 10:08:20] INFO - project.pipeline.agents - ---GENERATE---
+[2025-12-01 10:08:20] INFO - project.model.reranking - Reranked 3 documents, returning top 3
+[2025-12-01 10:08:22] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-12-01 10:08:22] INFO - project.pipeline.agents - Node 'generate' completed
+[2025-12-01 10:08:22] INFO - __main__ - RAG application completed successfully

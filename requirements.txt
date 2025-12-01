@@ -1,0 +1,10 @@
+python-dotenv
+langchain
+langgraph
+langchain-community
+langchain-groq
+langchain-huggingface
+langchain-chroma
+chromadb
+tiktoken
+rapidocr-onnxruntime
