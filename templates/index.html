@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn with Transformers</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']],
+                processEscapes: true
+            }
+        };
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <div class="header-text">
+                    <h1 class="main-title">LEARN ABOUT TRANSFORMERS</h1>
+                    <p class="subtitle">Ask questions about the "Attention Is All You Need Research Paper AKA Transformers."</p>
+                </div>
+                <div class="header-image">
+                    <img src="https://i.postimg.cc/gjtCYK7R/transformer-architecture-converted.png" alt="Transformer Architecture" />
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <form method="post" action="/search" class="search-form">
+                <div class="search-box">
+                    <input 
+                        type="text" 
+                        name="query" 
+                        placeholder="What is the attention mechanism?" 
+                        class="search-input"
+                        value="{{ query or '' }}"
+                        autofocus
+                    >
+                    <button type="submit" class="search-button">Search</button>
+                </div>
+            </form>
+
+            {% if error %}
+            <div class="error-box">
+                <p>{{ error }}</p>
+            </div>
+            {% endif %}
+
+            {% if query and answer %}
+            <div class="results">
+                <div class="question-box">
+                    <h3>Question:</h3>
+                    <p>{{ query }}</p>
+                </div>
+                
+                <div class="answer-box">
+                    <h3>Answer:</h3>
+                    <div class="answer-content">{{ answer | safe }}</div>
+                </div>
+            </div>
+            {% endif %}
+        </main>
+
+        <footer>
+            <p>Powered by RAG Pipeline with Corrective RAG (CRAG)</p>
+        </footer>
+    </div>
+    
+    <script>
+        // Trigger MathJax rendering after page load
+        if (window.MathJax) {
+            MathJax.typesetPromise();
+        }
+    </script>
+</body>
+</html>
