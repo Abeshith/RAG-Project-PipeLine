@@ -1,4 +1,4 @@
-# RAG Project - Learn with Transformers
+# RAG Project - Learn About Transformers
 
 A production-ready **Corrective Retrieval-Augmented Generation (CRAG)** system built with LangChain, LangGraph, and FastAPI. This project implements an intelligent RAG pipeline that not only retrieves relevant documents but also **validates, corrects, and improves** retrieval quality through an agent-based workflow.
 
