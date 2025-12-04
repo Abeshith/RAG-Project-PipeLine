@@ -13,9 +13,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Full clone, not shallow
-          lfs: false      # Disable LFS to avoid hook errors
+          fetch-depth: 0  
+          lfs: false      
 
+      - name: Prepare deployment files
+        run: |
+          # Remove data folder if exists
+          rm -rf data/
+          git rm --cached -r data/ 2>/dev/null || true
+          echo "data/" >> .gitignore
+          
       - name: Push to Hugging Face Spaces
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
@@ -23,11 +30,21 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
           
-          # Add HF remote
-          git remote add hf https://Abeshith:$HF_TOKEN@huggingface.co/spaces/Abeshith/RAG-Project
+          # Clone HF Space to a clean directory
+          git clone https://Abeshith:$HF_TOKEN@huggingface.co/spaces/Abeshith/RAG-Project hf-space
           
-          # Fetch HF repo to avoid shallow update error
-          git fetch hf main --depth=1 || true
+          # Copy only needed files
+          cp -r project/ hf-space/
+          cp -r templates/ hf-space/
+          cp -r static/ hf-space/
+          cp app.py hf-space/
+          cp Dockerfile hf-space/
+          cp requirements.txt hf-space/
+          cp .dockerignore hf-space/
+          cp README.md hf-space/
           
           # Push to HF Space
-          git push hf HEAD:main --force
+          cd hf-space
+          git add .
+          git commit -m "Deploy from GitHub Actions" || echo "No changes to commit"
+          git push origin main
