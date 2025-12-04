@@ -33,7 +33,7 @@ jobs:
           # Clone HF Space to a clean directory
           git clone https://Abeshith:$HF_TOKEN@huggingface.co/spaces/Abeshith/RAG-Project hf-space
           
-          # Copy only needed files
+          # Copy only needed files (excluding README to preserve HF config)
           cp -r project/ hf-space/
           cp -r templates/ hf-space/
           cp -r static/ hf-space/
@@ -41,7 +41,6 @@ jobs:
           cp Dockerfile hf-space/
           cp requirements.txt hf-space/
           cp .dockerignore hf-space/
-          cp README.md hf-space/
           
           # Push to HF Space
           cd hf-space
